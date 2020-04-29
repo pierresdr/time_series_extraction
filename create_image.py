@@ -2,10 +2,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-def plot_image(ordonne_y, abscisse_x, x_size, y_size, save_file=None):
+def plot_image(y_values, x_values, x_size, y_size, save_file=None):
     fig, ax = plt.subplots(1, 1, figsize=(x_size, y_size))
-    ax.plot(ordonne_y)
-    ax.set_xticklabels(abscisse_x)
+    ax.plot(y_values)
+    ax.set_xticklabels(x_values)
     if save_file is not None:
         plt.savefig(save_file)
     else:

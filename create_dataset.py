@@ -8,7 +8,6 @@ def data_fixed_x(n_data, x_values, set_functions, x_size, y_size, save_file):
         for j, function in enumerate(set_functions):
             current_file = os.path.join(save_file,'_'.join(('dataset',str(j),str(i))))
             im.plot_image(function(x_values), x_values, x_size, y_size, save_file=current_file)
-# depsoîde
 
 
 
