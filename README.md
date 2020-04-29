@@ -1,4 +1,3 @@
-# time_series_extraction
-# time_series_extraction
-# time_series_extraction
-# time_series_extraction
+# Image to sequence
+
+Extract sequence data from an image with desired detail
