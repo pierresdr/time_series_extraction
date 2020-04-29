@@ -28,5 +28,6 @@ def dataset_random_x(n_data, n_x, set_functions, x_size, y_size, save_file):
 
 if __name__ == '__main__':
     set_functions = [lambda x: np.sin(x),
-                    lambda x: np.cos(x)]
+                    lambda x: np.cos(x),
+                    lambda x: np.cos(x)+2]
     dataset_random_x(2, 10, set_functions, 15, 10,'dataset')
